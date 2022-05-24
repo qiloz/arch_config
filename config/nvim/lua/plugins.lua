@@ -1,4 +1,3 @@
-
 -- _  ___   _____ __  __   ___ _   _   _  ___ _ ___ 
 --| \| \ \ / /_ _|  \/  | | _ \ | | | | |/ __( ) __|
 --| .` |\ V / | || |\/| | |  _/ |_| |_| | (_ |/\__ \
@@ -29,6 +28,8 @@ Plug 'hrsh7th/cmp-nvim-lsp'
 
 ----TREESITTER----------------------------------
 Plug 'nvim-treesitter/nvim-treesitter'
-
+----TELESCOPE-----------------------------------
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
 vim.call('plug#end')
 
